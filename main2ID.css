@@ -1,0 +1,29 @@
+
+
+/* Use # before ID */
+
+/* For paragraph 1*/
+
+#par1{
+
+    font-size: 30px;
+   font-weight: bold;
+   color: blue;
+   font-style: italic;
+   background-color:aquamarine;
+   box-shadow: 2pc;
+
+}
+
+/* For paragraph 2*/
+
+#par2{
+
+    font-size: 20px;
+   font-weight: bold;
+   color:red;
+   font-style: italic;
+   background-color:aquamarine;
+   box-shadow: 2pc;
+
+}
