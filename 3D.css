@@ -1,0 +1,56 @@
+/* Use ID */
+
+#div1{
+
+    width: 200px;
+    height: 500px;
+    background-color:yellow;
+    position:absolute;
+
+    left: 100px;
+    top: 100px;
+    z-index:4;
+}
+
+/* div2 the same parent HTML with div1 */
+
+#div2{
+
+    width: 200px;
+    height: 500px;
+    background-color:rgb(80, 9, 222);
+    position:absolute;
+
+    left: 180px;
+    top: 150px;
+    z-index:6;
+}
+
+
+/*
+#div3{
+
+    width: 200px;
+    height: 200px;
+    background-color:rgb(247, 8, 8);
+    position:absolute;
+
+    left: 100px;
+    top: 100px;
+    z-index:5;
+}
+
+*/
+
+
+#div3{
+
+    width: 200px;
+    height: 200px;
+    background-color:rgb(247, 8, 8);
+    position:fixed;       /* fixed on screen when move div1, div2 */
+
+    left: 100px;
+    top: 100px;
+    z-index:5;
+}
